@@ -1,0 +1,14 @@
+{
+  "name": "base-contract-verifier-cli",
+  "version": "0.1.0",
+  "description": "CLI tool to verify Solidity contracts on Base Explorer",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "ts-node src/index.ts"
+  },
+  "license": "MIT",
+  "keywords": []
+}
